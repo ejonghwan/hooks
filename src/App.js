@@ -6,8 +6,10 @@ import './App.css';
 import UseInput1 from './01_useInput/Input_1';
 import UseInput2 from './01_useInput/Input_2';
 import UseTitle from './03_useTitle/Title_1';
-import UseClick from './useClick/Click_1';
-import Confirm from './04_useConfirm/Confirm_1';
+import UseClick from './04_useClick/Click_1';
+import Confirm_1 from './05_useConfirm/Confirm_1';
+import Confirm_2 from './05_useConfirm/Confirm_2';
+import BeforeLeave from './06_useBeforeLeave/BeforeLeave';
 
 const App = () => {
 
@@ -34,8 +36,16 @@ const App = () => {
           <UseClick />
       </div>
       <div style={{marginTop: "20px", padding: "20px"}}>
-          <h2 style={{color: 'orange'}}>Confirm</h2>
-          <Confirm />
+          <h2 style={{color: 'orange'}}>Confirm1</h2>
+          <Confirm_1 />
+      </div>
+      <div style={{marginTop: "20px", padding: "20px"}}>
+          <h2 style={{color: 'orange'}}>Confirm2</h2>
+          <Confirm_2 />
+      </div><hr />
+      <div style={{marginTop: "20px", padding: "20px"}}>
+          <h2 style={{color: 'orange'}}>BeforeLeave</h2>
+          <BeforeLeave />
       </div>
     </div>
   );
