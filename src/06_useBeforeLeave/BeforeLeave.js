@@ -5,7 +5,7 @@ const useBeforeLeave = (onBefore) => {
 
     // if(typeof onBefore !== 'function') {
     //     return;
-    // }
+    // } error
 
     const handler = (e) => {
         const { clientY } = e
@@ -15,7 +15,7 @@ const useBeforeLeave = (onBefore) => {
 
     useEffect(() => {
         if(typeof onBefore !== 'function') {
-            return;
+            return; 
         }
         document.addEventListener('mouseleave', handler)
         return () => { document.removeEventListener('mouseleave', handler) }
