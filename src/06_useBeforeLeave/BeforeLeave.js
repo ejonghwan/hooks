@@ -24,16 +24,16 @@ const useBeforeLeave = (onBefore) => {
 }
 
 
-const BeforeLeave = () => {
+// const BeforeLeave = () => {
 
-    const begForLife = () => console.log('please dont leave')
-    useBeforeLeave(begForLife)
+//     const begForLife = () => console.log('please dont leave')
+//     useBeforeLeave(begForLife)
 
-    return (
-        <div>
-            asdas
-        </div>
-    );
-};
+//     return (
+//         <div>
+//             asdas
+//         </div>
+//     );
+// };
 
 export default BeforeLeave;
