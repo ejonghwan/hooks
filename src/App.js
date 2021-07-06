@@ -11,6 +11,7 @@ import Confirm_1 from './05_useConfirm/Confirm_1';
 import Confirm_2 from './05_useConfirm/Confirm_2';
 import BeforeLeave from './06_useBeforeLeave/BeforeLeave';
 import FadeIn from './07_useFadeIn/FadeIn';
+import Network from './08_useNetwork/Network';
 
 const App = () => {
 
@@ -53,6 +54,11 @@ const App = () => {
       <div style={{marginTop: "20px", padding: "20px"}}>
           <h2 style={{color: 'orange'}}>FadeIn</h2>
           <FadeIn />
+      </div>
+      <hr />
+      <div style={{marginTop: "20px", padding: "20px"}}>
+          <h2 style={{color: 'orange'}}>Network</h2>
+          <Network />
       </div>
     </div>
   );
