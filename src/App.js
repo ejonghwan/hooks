@@ -12,6 +12,7 @@ import Confirm_2 from './05_useConfirm/Confirm_2';
 import BeforeLeave from './06_useBeforeLeave/BeforeLeave';
 import FadeIn from './07_useFadeIn/FadeIn';
 import Network from './08_useNetwork/Network';
+import Scroll from './09_useScroll/Scroll';
 
 const App = () => {
 
@@ -59,6 +60,11 @@ const App = () => {
       <div style={{marginTop: "20px", padding: "20px"}}>
           <h2 style={{color: 'orange'}}>Network</h2>
           <Network />
+      </div>
+      <hr />
+      <div style={{marginTop: "20px", padding: "20px"}}>
+          <h2 style={{color: 'orange'}}>Scroll</h2>
+          <Scroll />
       </div>
     </div>
   );
